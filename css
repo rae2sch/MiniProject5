@@ -1,0 +1,126 @@
+body {
+  background-image: url("http://blackandwhitewallpaper.weebly.com/uploads/1/9/7/6/19768865/8186946_orig.jpg");
+}
+
+h1 {
+  font-family: Tempus sans itc;
+  font-size: 100px;
+  text-align: center;
+  color: #331a00
+}
+/*below animation example*/
+h1 span {
+  text-shadow: 0 0 2px rgba(204, 208, 212, 0.9), 0 15px 25px rgba(0, 0, 0, 0.3), 0 -2px 3px rgba(0, 0, 0, 0.1), 0 -5px 10px rgba(255, 255, 255, 0.5), 0 5px 10px rgba(0, 0, 0, 0.3), 0 3px 4px rgba(255, 255, 255, 0.2), 0 0 20px rgba(255, 255, 255, 0.45);
+  -webkit-animation: loading 1.2s ease-in-out infinite alternate;
+  -moz-animation: loading 1.2s ease-in-out infinite alternate;
+  -ms-animation: loading 1.2s ease-in-out infinite alternate;
+  animation: loading 1.2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes loading {
+  to {
+    text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@-moz-keyframes loading {
+  to {
+    text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@-ms-keyframes loading {
+  to {
+    text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes loading {
+  to {
+    text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+h1 span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+h1 span:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -ms-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+h1 span:nth-child(4) {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+h1 span:nth-child(5) {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+h1 span:nth-child(6) {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+h1 span:nth-child(7) {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  -ms-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+#grad1 {
+  margin: 5px;
+  border: 10px solid #663300;
+  height: 200px;
+  background: #adad85;
+  background: -webkit-linear-gradient(left top, #ccccb3, #4d4d4d);
+  background: -o-linear-gradient(bottom right, #ccccb3, #4d4d4d);
+  background: -moz-linear-gradient(bottom right, #ccccb3, #4d4d4d);
+  background: linear-gradient(to bottom right, #ccccb3, #4d4d4d);
+}
+
+
+/* here is CSS3 Gradients */
+
+div.img {
+  margin: 5px;
+  border: 10px solid #663300;
+  float: left;
+  width: 250px;
+  height: 165px;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+
+/* This is Image Gallery */
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.img:hover {
+  width: 30%;
+  height: auto;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(360deg);
+}
+
+
+/* This is CSS3 Transitions */
